@@ -10,6 +10,7 @@ RSpec.describe 'Member Search' do
 
     expect(current_path).to eq('/search')
     expect(page).to have_content('Fire Nation')
+    expect(page).to have_content(97)
   end 
 end 
 
